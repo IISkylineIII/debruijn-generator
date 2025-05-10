@@ -39,14 +39,14 @@ def de_bruijn_sequence(k, n):
 # Example: generate a binary De Bruijn sequence of order 4
 result = de_bruijn_sequence(2, 4)
 print(result)
+```
 
 ### Output:
 
 0000100110101111
 
-Parameters
+### Parameters
 k: Size of the alphabet (e.g., 2 for binary, 4 for DNA bases)
-
 n: Length of the substrings (order of the sequence)
 
 ### Applications
